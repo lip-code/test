@@ -53,6 +53,7 @@ class Solution {
             if (++count >= len/2){
                 res = nums[i];
                 break;
+
             }
             map.put(nums[i],count);
         }
